@@ -1,0 +1,28 @@
+{
+  "title": "iG5 Network - Blockchain Protocol for iGaming & Game-Fi",
+  "description": "iG5 is a next-gen Layer-1 blockchain protocol purpose-built for iGaming and Game-Fi. Scalable, secure, and optimized for real-time on-chain gaming economies.",
+  "keywords": [
+    "iG5",
+    "iG5 Network",
+    "iGaming",
+    "Game-Fi",
+    "Web3 Gaming",
+    "Blockchain Gaming",
+    "Layer-1 Protocol",
+    "DeFi Gaming",
+    "Crypto Gaming",
+    "Play-to-Earn"
+  ],
+  "author": "iG5 Network",
+  "url": "https://ig5.network",
+  "image": "https://ig5.network/assets/social-banner.png",
+  "twitter_card": "summary_large_image",
+  "theme_color": "#121212",
+  "og": {
+    "title": "iG5 Network - Powering the Future of iGaming",
+    "description": "Explore the iG5 Protocol — a Web3-native blockchain designed for seamless, scalable, and real-time gaming experiences.",
+    "type": "website",
+    "url": "https://ig5.network",
+    "image": "https://ig5.network/assets/og-image.png"
+  }
+}
