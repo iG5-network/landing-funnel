@@ -7,7 +7,7 @@ const Home =() => {
   return (
     <main>
       <Head brand="iG5 Protocol;"/>
-      <Tail copyright="© 2023 Your Company Name" />
+      <Tail copyright="© 2025 iG5 Foundation | All Rights Reserved" />
     </main>
   );
 } 
