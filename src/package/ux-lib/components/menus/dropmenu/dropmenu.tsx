@@ -18,9 +18,11 @@ type DropMenuProps = {
 
 const DropMenu = ({ menu }: DropMenuProps) => {
 	const [isDropPanelOpen, setIsDropPanelOpen] = useState(false)
+	const [activeMenu, setActiveMenu] = useState<string | null>(null)
 
 	const MenuHandler = (e: React.MouseEvent<HTMLAnchorElement>) => {
 		e.preventDefault()
+		setActiveMenu(e.currentTarget.textContent)
 		setIsDropPanelOpen(!isDropPanelOpen)
 	}
 
@@ -44,7 +46,7 @@ const DropMenu = ({ menu }: DropMenuProps) => {
 								cursor: 'pointer',
 							}}
 							src={
-								isDropPanelOpen
+								isDropPanelOpen && activeMenu === anchor.name
 									? '/chevron-up.svg'
 									: '/chevron-down.svg'
 							}

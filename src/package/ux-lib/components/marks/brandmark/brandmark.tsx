@@ -9,7 +9,7 @@ const BrandMark = () => {
 				className={styles.brandmark}
 				alt="brand"
 				width={240}
-				height={48}
+				height={78}
 				src={'/brand.svg'}
 			/>
 		</Link>
