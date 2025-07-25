@@ -1,34 +1,40 @@
-import type { Metadata } from "next";
-import { Plus_Jakarta_Sans } from "next/font/google";
-import "./globals.css";
+import type { Metadata } from 'next'
+import { Plus_Jakarta_Sans } from 'next/font/google'
+import './globals.css'
 
-import Settings from '../config/settings.json'
+import GlobalSettings from '../config/settings/global.settings.json'
+
+import { Headbar, Tailbar } from '@/package/ux-lib/patterns/bars'
 
 const prime = Plus_Jakarta_Sans({
-  variable: "--font-prime",
-  subsets: ["latin"],
-});
+	variable: '--font-prime',
+	subsets: ['latin'],
+	weight: '500',
+})
 
 const sec = Plus_Jakarta_Sans({
-  variable: "--font-sec",
-  subsets: ["latin"],
-});
+	variable: '--font-sec',
+	subsets: ['latin'],
+	weight: '500',
+})
 
 export const metadata: Metadata = {
-  title: Settings.title,
-  description: Settings.description,
-};
+	title: GlobalSettings.title,
+	description: GlobalSettings.description,
+}
 
 export default function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode;
+	children: React.ReactNode
 }>) {
-  return (
-    <html lang="en">
-      <body className={`${prime.variable} ${sec.variable}`}>
-        {children}
-      </body>
-    </html>
-  );
+	return (
+		<html lang="en">
+			<body className={`${prime.variable} ${sec.variable}`}>
+				<Headbar />
+				{children}
+				<Tailbar copyright="© 2025 iG5 Foundation | All Rights Reserved" />
+			</body>
+		</html>
+	)
 }

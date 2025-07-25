@@ -1,0 +1,23 @@
+{
+	"menu": [
+		{
+			"name": "Ecosystem",
+			"href": "/ecosystem"
+		},
+		{
+			"name": "Foundation",
+			"href": "/foundation"
+		},
+		{
+			"name": "Resources",
+			"href": "/resources"
+		}
+	],
+	"labelGlyph": {
+		"label": "Access",
+		"w": 32,
+		"h": 32,
+		"alt": "icon",
+		"src": "/access.svg"
+	}
+}

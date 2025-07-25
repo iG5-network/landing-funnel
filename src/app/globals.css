@@ -1,28 +1,52 @@
-*{
-    font-family: var(--font-prime), var(--font-sec), sans-serif;
-    margin: 0;
-
+* {
+	font-family: var(--font-prime), var(--font-sec), sans-serif;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
 }
 
-button{
-        align-self: center;
-    justify-self: center;
-    padding: 12px 48px;
-    background-color: white;
-    cursor: pointer;
-    outline: none;
-    border: none;
+button {
+	align-self: center;
+	justify-self: center;
+	padding: 12px 48px;
+	background-color: white;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	font-size: 14px;
 }
 
-button:hover{
-    background-color: rgb(240, 240, 240);
+button:hover {
+	background-color: rgb(240, 240, 240);
 }
 
-li{
-    list-style: none;
+li {
+	list-style: none;
 }
 
-a{
-    text-decoration: none;  
-    color: white;
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a,
+p,
+b {
+	font-size: 14px;
+}
+
+main {
+	background-color: aquamarine;
+}
+
+@media only screen and (max-width: 600px) {
+	a,
+	b,
+	p {
+		font-size: 12px;
+	}
+
+	button {
+		font-size: 12px;
+	}
 }
