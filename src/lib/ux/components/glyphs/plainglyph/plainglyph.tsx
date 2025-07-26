@@ -6,7 +6,6 @@ type PlainGlyphProps = {
 	w: number
 	h: number
 	alt: string
-	type: string
 	style?: React.CSSProperties
 }
 

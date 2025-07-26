@@ -8,11 +8,11 @@ import { DropMenu } from '@/lib/ux/components/menus'
 
 import { HeadbarSettings } from '@/config/settings'
 
-const Headbar = () => {
+const HeadBar = () => {
 	return (
 		<div className={styles.headbar}>
 			<BrandMark />
-			<DropMenu menu={HeadbarSettings.menu} />
+			<DropMenu style={{}} menu={HeadbarSettings.menu} />
 			<div className={styles.ctrls}>
 				<HookTrigger label="Login" />
 				<LabelGlyph {...HeadbarSettings.labelGlyph} />
@@ -21,4 +21,4 @@ const Headbar = () => {
 	)
 }
 
-export default Headbar
+export default HeadBar

@@ -1,4 +1,4 @@
-import styles from './dropmenu.module.css'
+import styles from './mobmenu.module.css'
 
 import Link from 'next/link'
 
@@ -9,7 +9,7 @@ import { Fragment } from 'react'
 
 import { useState } from 'react'
 
-type DropMenuProps = {
+type MobMenuProps = {
 	menu: {
 		name: string
 		href: string
@@ -17,7 +17,7 @@ type DropMenuProps = {
 	style?: React.CSSProperties
 }
 
-const DropMenu = ({ menu, style }: DropMenuProps) => {
+const MobMenu = ({ menu, style }: MobMenuProps) => {
 	const [isDropPanelOpen, setIsDropPanelOpen] = useState(false)
 	const [activeMenu, setActiveMenu] = useState<string | null>(null)
 
@@ -29,7 +29,7 @@ const DropMenu = ({ menu, style }: DropMenuProps) => {
 
 	return (
 		<Fragment>
-			<ul style={style} className={styles.dropmenu}>
+			<ul style={style} className={styles.mobmenu}>
 				{menu.map((anchor, i) => (
 					<Link
 						style={{
@@ -54,6 +54,7 @@ const DropMenu = ({ menu, style }: DropMenuProps) => {
 							w={16}
 							h={16}
 							alt="drop-icon"
+							type="icon"
 						/>
 					</Link>
 				))}
@@ -63,4 +64,4 @@ const DropMenu = ({ menu, style }: DropMenuProps) => {
 	)
 }
 
-export default DropMenu
+export default MobMenu

@@ -1,4 +1,5 @@
-import Headbar from "./headbar/headbar";
-import Tailbar from "./tailbar/tailbar";
+import HeadBar from './headbar/headbar'
+import TailBar from './tailbar/tailbar'
+import SlickBar from './slickbar/slickbar'
 
-export { Headbar, Tailbar };
+export { HeadBar, TailBar, SlickBar }

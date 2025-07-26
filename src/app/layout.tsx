@@ -4,7 +4,7 @@ import './globals.css'
 
 import GlobalSettings from '../config/settings/global.settings.json'
 
-import { Headbar, Tailbar } from '@/lib/ux/patterns/bars'
+import { HeadBar, TailBar, SlickBar } from '@/lib/ux/patterns/bars'
 
 const prime = Plus_Jakarta_Sans({
 	variable: '--font-prime',
@@ -31,9 +31,10 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={`${prime.variable} ${sec.variable}`}>
-				<Headbar />
+				<HeadBar />
+				<SlickBar />
 				{children}
-				<Tailbar copyright="© 2025 iG5 Foundation | All Rights Reserved" />
+				<TailBar copyright="© 2025 iG5 Foundation | All Rights Reserved" />
 			</body>
 		</html>
 	)

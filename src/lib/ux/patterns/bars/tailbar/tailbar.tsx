@@ -1,14 +1,13 @@
 type TailbarProps = {
-  copyright?: string
+	copyright?: string
 }
 
-const Tailbar = ({copyright}:TailbarProps) => {
-  return (
-   <div>
-        <p>{copyright}</p>
-   </div>
-  );
-
+const TailBar = ({ copyright }: TailbarProps) => {
+	return (
+		<div>
+			<p>{copyright}</p>
+		</div>
+	)
 }
 
-export default Tailbar;
+export default TailBar

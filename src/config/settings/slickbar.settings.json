@@ -1,0 +1,16 @@
+{
+	"menu": [
+		{
+			"name": "Ecosystem",
+			"href": "/ecosystem"
+		},
+		{
+			"name": "Solutions",
+			"href": "/solutions"
+		},
+		{
+			"name": "Resources",
+			"href": "/resources"
+		}
+	]
+}
