@@ -3,7 +3,7 @@ import styles from './dropmenu.module.css'
 import Link from 'next/link'
 
 import { PlainGlyph } from '../../glyphs'
-import { DropPanel } from '@/package/ux-lib/patterns/panels'
+import { DropPanel } from '@/lib/ux/patterns/panels'
 
 import { Fragment } from 'react'
 

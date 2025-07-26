@@ -8,8 +8,8 @@ const BrandMark = () => {
 			<Image
 				className={styles.brandmark}
 				alt="brand"
-				width={240}
-				height={78}
+				width={120}
+				height={70}
 				src={'/brand.svg'}
 			/>
 		</Link>

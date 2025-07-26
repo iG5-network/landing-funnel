@@ -1,10 +1,10 @@
 'use client'
 
 import styles from './headbar.module.css'
-import { LabelGlyph } from '@/package/ux-lib/components/glyphs'
-import { HookTrigger } from '@/package/ux-lib/components/triggers'
-import { BrandMark } from '@/package/ux-lib/components/marks'
-import { DropMenu } from '@/package/ux-lib/components/menus'
+import { LabelGlyph } from '@/lib/ux/components/glyphs'
+import { HookTrigger } from '@/lib/ux/components/triggers'
+import { BrandMark } from '@/lib/ux/components/marks'
+import { DropMenu } from '@/lib/ux/components/menus'
 
 import { HeadbarSettings } from '@/config/settings'
 

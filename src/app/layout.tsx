@@ -4,7 +4,7 @@ import './globals.css'
 
 import GlobalSettings from '../config/settings/global.settings.json'
 
-import { Headbar, Tailbar } from '@/package/ux-lib/patterns/bars'
+import { Headbar, Tailbar } from '@/lib/ux/patterns/bars'
 
 const prime = Plus_Jakarta_Sans({
 	variable: '--font-prime',

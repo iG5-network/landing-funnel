@@ -5,6 +5,10 @@
 	padding: 0;
 }
 
+body {
+	background-color: black;
+}
+
 button {
 	align-self: center;
 	justify-self: center;
@@ -36,7 +40,6 @@ b {
 }
 
 main {
-	background-color: aquamarine;
 	height: 1900px;
 }
 
