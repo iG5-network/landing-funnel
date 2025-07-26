@@ -54,7 +54,6 @@ const MobMenu = ({ menu, style }: MobMenuProps) => {
 							w={16}
 							h={16}
 							alt="drop-icon"
-							type="icon"
 						/>
 					</Link>
 				))}
